@@ -2,6 +2,7 @@ require('offline-plugin/runtime').install();
 
 // import './fonts/libre-baskerville-v5-latin-regular.woff';
 // import './fonts/libre-baskerville-v5-latin-regular.woff2';
+import './fonts/icomoon.woff';
 
 import './index.html';
 import './index.scss';
