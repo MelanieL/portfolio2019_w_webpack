@@ -38,6 +38,6 @@ nav ul a {
   padding: 0 5px;
 }
 
-nav ul a:hover, .social-top a:hover {
-  color: $color7;
+header a:hover, header a:focus {
+    color: $color7;
 }
