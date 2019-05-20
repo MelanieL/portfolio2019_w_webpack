@@ -1,5 +1,5 @@
 //! import google fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
 
 //! set font variables
 $font-heading: 'Poppins', sans-serif;
@@ -13,15 +13,18 @@ html {
 body {
   font-family: $font-body;
   font-size: 1.6rem;
-  color: $black;
+  color: $color4;
 }
 
 h1 {
+  color: $color1;
   font-family: $font-heading;
   font-size: 1.7rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h2 {
-  font-family: $font-heading
+  color: $color7;
+  font-family: $font-heading;
+  font-weight: 700;
 }
