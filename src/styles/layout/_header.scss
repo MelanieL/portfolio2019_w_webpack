@@ -1,11 +1,15 @@
 header {
   position: fixed;
   padding: 10px 15px;
-  border-bottom: 1px solid $color8;
+  border-bottom: 0.25px solid $color8;
   z-index: 50;
   background-color: $color1;
   width: 100%;
   height: 68px;
+}
+
+.logo {
+  font-size: 1.6rem;
 }
 
 nav {
