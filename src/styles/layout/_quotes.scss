@@ -1,0 +1,18 @@
+.quote {
+    background-image: url(/images/img_quote.jpg);
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    background-position: bottom;
+}
+
+.quote h2, .quote h4 {
+    color: $color1;
+}
+
+.quote h4 {
+    margin: 20px 0 0 20px;
+}
