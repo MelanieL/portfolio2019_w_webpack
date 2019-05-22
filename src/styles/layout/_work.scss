@@ -1,0 +1,37 @@
+.projectCntr {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    margin: 50px 0 120px 0;
+}
+
+.projectDescCntr {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImg, .projectDescCntr {
+    width: 46%;
+}
+
+.projectTagsCntr {
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.projectTagsCntr, .btnCntr {
+    display: flex;
+}
+
+.projectTag {
+    background-color: $color011;
+    color: $color1;
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 10px 5px;
+}
+
+.btnCntr > :last-child {
+    margin-left: 20px;
+}

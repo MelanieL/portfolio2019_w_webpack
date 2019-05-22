@@ -101,44 +101,49 @@
   <section class="about" id="about">
     <div class="wrapper">
       <h2 class="sectionTitle">About Me</h2>
-      <div class="aboutMeCont">
+      <div class="aboutMeCtnr">
         <div class="aboutMeTxt">
-          <p>I grew up in a small town in northern Ontario. While I'll always be a nature lover at heart, I also crave the opportunities bigger cities have to offer.</p>
+          <p>I grew up in a small town in northern Ontario. I'll always be a nature lover at heart, but I also crave the opportunities bigger cities have to offer.</p>
 
           <p>I’m a bilingual (English/French) Web Developer with 12 years of experience in distribution and logistics. I’ve been
           coding for years, but upgraded my skills in early 2018. That's when I graduated from the HackerYou College of
           Technology's Web Development Immersive. Now, I'm a mentor with Canada Learning Code, volunteer with ProjectWebsite.org and full-time Web Developer.</p>
 
-          <p>Aside from web development (which I also do in my spare time), I love books (especially Sci-Fi), plants, bouldering and anything outdoors.</p>
+          <p>Aside from web development (which I also do in my spare time), I love books (especially Sci-Fi), plants and anything outdoors.</p>
         </div>
         <div class="aboutMeImg">
           <img src="./images/img_headshot.jpg" alt="headshot of Melanie Phillips">
         </div>
       </div>
-      <div class="skillsCont">
-        <div class="mySkills">
-          <h3>My Skills</h3>
-          <span class="skill">JavaScript</span>
-          <span class="skill">React</span>
-          <span class="skill">jQuery</span>
-          <span class="skill">Git/GitHub</span>
-          <span class="skill">Gulp</span>
-          <span class="skill">Webpack</span>
-          <span class="skill">Sass</span>
-          <span class="skill">Firebase</span>
-          <span class="skill">CSS</span>
-          <span class="skill">HTML</span>
-          <span class="skill">Terminal</span>
-          <span class="skill">Responsive Design</span>
-          <span class="skill">Sketch</span>
-          <span class="skill">BEM</span>
+      <div class="skillsGridsCtnr">
+        <div class="skillsCtnr">
+          <h3>My Skills & Tools</h3>
+          <div class="mySkills">
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">jQuery</span>
+            <span class="skill">Git/GitHub</span>
+            <span class="skill">Webpack</span>
+            <span class="skill">Gulp</span>
+            <span class="skill">CSS/SCSS</span>
+            <span class="skill">HTML</span>
+            <span class="skill">Responsive Design</span>
+            <span class="skill">Rest APIs</span>
+            <span class="skill">Firebase</span>
+            <span class="skill">Terminal</span>
+            <span class="skill">Sketch</span>
+            <span class="skill">Wordpress</span>
+            <span class="skill">Technical Writing</span>
+          </div>
         </div>
-        <div class="toLearn">
-          <h3>Want To Learn</h3>
-          <span class="skill">Vue.js</span>
-          <span class="skill">Node.js</span>
-          <span class="skill">Ruby</span>
-          <span class="skill">Python</span>
+        <div class="learnCtnr">
+          <h3>To Learn</h3>
+          <div class="toLearn">
+            <span class="skill">Vue.js</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Ruby</span>
+            <span class="skill">Python</span>
+          </div>
         </div>
       </div>
     </div>
@@ -147,30 +152,103 @@
   <!-- Could make this something funny, like a random joke generator? Nature quote generator? Something I like generator? -->
   <section class="workTogether">
     <div class="wrapper">
-      <h3>Have a problem I can help solve?</h3>
+      <h3>Can I help you solve a problem?</h3>
       <h2 class="sectionTitle">Let's work together!</h2>
-      <a href="#contact" class="button lightbtn">Contact</a>
+      <a href="#contact" class="lightbtn">Contact</a>
     </div>
   </section>
 
   <section class="work" id="work">
     <div class="wrapper">
       <h2 class="sectionTitle">Some Of My Work</h2>
-      <div class="projectCont">
+
+      <div class="projectCntr">
         <div class="projectImg">
-          <img src="https://source.unsplash.com/random/" alt="a random unsplash image">
+          <img src="../src/images/img_quiz.png" alt="screenshot of my space quiz project">
         </div>
-        <div class="projectDescCont">
-          <p></p>
-          <div class="projectTagsCont">
-            <span class="projectTag"></span>
-            <span class="projectTag"></span>
-            <span class="projectTag"></span>
-            <span class="projectTag"></span>
-            <span class="projectTag"></span>        
+        <div class="projectDescCntr">
+          <h4>A Ship to Call Home</h4>
+          <div class="projectTagsCntr">
+            <span class="projectTag">JavaScript</span>
+            <span class="projectTag">jQuery</span>
+            <span class="projectTag">Responsive</span>
+            <span class="projectTag">CSS</span>
+            <span class="projectTag">HTML</span>        
+          </div>
+          <p>Quiz that tells the user the pop culture space ship where they would feel the most at home.</p>
+          <div class="btnCntr">
+            <a href="http://www.melaniephillips.io/spacequiz/" class="darkbtn" target="_blank" rel="noopener">View Live</a>
+            <a href="https://github.com/MelanieL/js-quiz-spaceship-home" class="darkbtn" target="_blank" rel="noopener">View GitHub</a>
           </div>
         </div>
       </div>
+
+      <div class="projectCntr">
+        <div class="projectImg">
+          <img src="../src/images/img_brews.png" alt="screenshot of my lcco and snack pairing project">
+        </div>
+        <div class="projectDescCntr">
+          <h4>Web App - LCBO Beer & Everyday Snack Pairings</h4>
+          <div class="projectTagsCntr">
+            <span class="projectTag">API</span>
+            <span class="projectTag">JavaScript</span>
+            <span class="projectTag">jQuery</span>
+            <span class="projectTag">Responsive</span>
+            <span class="projectTag">CSS</span>
+            <span class="projectTag">HTML</span>
+          </div>
+          <p>An app that prompts the user with questions to narrow down beer selections using the LCBO API, and then provides
+          not-so-fancy snacks that would pair well.</p>
+          <div class="btnCntr">
+            <a href="http://www.melaniephillips.io/brewsandbites/" class="darkbtn" target="_blank" rel="noopener">View Live</a>
+            <a href="https://github.com/MelanieL/api_1" class="darkbtn" target="_blank" rel="noopener">View GitHub</a>
+          </div>
+        </div>
+      </div>      
+
+      <div class="projectCntr">
+        <div class="projectImg subtleBorder">
+          <img src="../src/images/img_psd.png" alt="screenshot of psd conversion project">
+        </div>
+        <div class="projectDescCntr">
+          <h4>Responsive PSD Conversion</h4>
+          <div class="projectTagsCntr">
+            <span class="projectTag">Responsive</span>
+            <span class="projectTag">CSS</span>
+            <span class="projectTag">HTML</span>
+          </div>
+          <p>Responsive design replicated from a PSD file.</p>
+          <div class="btnCntr">
+            <a href="http://www.melaniephillips.io/over/" class="darkbtn" target="_blank" rel="noopener">View Live</a>
+            <a href="https://github.com/MelanieL/psd-conversion_over" class="darkbtn" target="_blank" rel="noopener">View GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projectCntr">
+        <div class="projectImg">
+          <img src="../src/images/img_movie.png" alt="screenshot of movie app project">
+        </div>
+        <div class="projectDescCntr">
+          <h4>Web App - Movie Watchlist</h4>
+          <div class="projectTagsCntr">
+            <span class="projectTag">React.js</span>
+            <span class="projectTag">API</span>
+            <span class="projectTag">Firebase</span>
+            <span class="projectTag">JavaScript</span>
+            <span class="projectTag">jQuery</span>
+            <span class="projectTag">Responsive</span>
+            <span class="projectTag">CSS</span>
+            <span class="projectTag">HTML</span>
+          </div>
+          <p>Web app that allows the user to search and store movie selections.</p>
+          <div class="btnCntr">
+            <a href="https://project6-version2.firebaseapp.com/" class="darkbtn" target="_blank" rel="noopener">View Live</a>
+            <a href="https://github.com/MelanieL/watchlist" class="darkbtn" target="_blank" rel="noopener">View GitHub</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 

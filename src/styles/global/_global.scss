@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin: 0 0 10px;
+  // margin: 0 0 10px;
 }
 
 a {
@@ -50,22 +50,33 @@ section, blockquote, footer {
   margin: 0 0 30px 0;
 }
 
+.subtleBorder {
+    border: 1px solid $color7;
+}
+
 .lightbtn, .darkbtn {
-  padding: 6px 30px;
+  padding: 10px 30px;
   font-size: 1.1rem;
   font-weight: 700;
   transition: all 0.4s ease-in-out;
   border-radius: 25px;
-  // text-align: center;
   cursor: pointer;
   border: 1px solid transparent;
-  width: 152px;
-  height: 64px;
+  // width: 152px;
+  // height: 64px;
 }
 
-.lightbtn, .darkbtn:hover, .darkbtn:focus {
-  background-color: $color1;
+.lightbtn {
   color: $color4;
+}
+
+.lightbtn {
+  background-color: $color1;
+}
+
+.darkbtn:hover, .darkbtn:focus {
+  background-color: $color4;
+  color: $color1;
 }
 
 .darkbtn, .lightbtn:hover, .lightbtn:focus {
