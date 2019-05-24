@@ -1,0 +1,39 @@
+.contact {
+    background-color: $color7;
+}
+
+.contactCntr {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactInfoCntr, .smCntr {
+    width: 30%;
+}
+
+.contactInfoCntr {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfoCntr span {
+    margin: 0 0 20px 0;
+}
+
+.smCntr a {
+    padding: 0 5px;
+}
+
+.contact .fa-envelope {
+    margin-right: 10px;
+}
+
+.contact .fa-map-marker-alt {
+    margin-right: 19px;
+}
+
+.contactInfoCntr a:hover, .contactInfoCntr a:focus, .smCntr a:hover, .smCntr a:focus {
+    // color: $color6;
+    color: $color1;
+      transition: all 0.2s ease-in-out;
+}

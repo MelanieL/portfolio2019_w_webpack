@@ -83,3 +83,7 @@ section, blockquote, footer {
   background-color: $color010;
   color: $color1;
 }
+
+*a:hover, *a:focus {
+  transition: all 0.4s ease-in-out;
+}
