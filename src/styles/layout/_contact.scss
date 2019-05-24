@@ -5,10 +5,8 @@
 .contactCntr {
     display: flex;
     flex-direction: row;
-}
-
-.contactInfoCntr, .smCntr {
-    width: 30%;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .contactInfoCntr {
@@ -33,7 +31,10 @@
 }
 
 .contactInfoCntr a:hover, .contactInfoCntr a:focus, .smCntr a:hover, .smCntr a:focus {
-    // color: $color6;
     color: $color1;
-      transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.copyright {
+    text-align: center;
 }
