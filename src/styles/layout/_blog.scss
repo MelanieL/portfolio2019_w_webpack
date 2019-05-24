@@ -1,14 +1,25 @@
 .article {
     display: flex;
     flex-direction: column;
-    margin: 6% 0;
+    // margin: 6% 0;
+    border-bottom: 1px solid $color6;
+    padding: 2% 0;
 }
 
-.article h4 {
-    margin-bottom: 8px;
+.article:last-of-type {
+    border-bottom: unset;
+    margin-bottom: 2%;
 }
+
+// .article h4 {
+//     margin-bottom: 8px;
+// }
 
 .article a h4:hover, .article a h4:focus {
     color: $color4;
     transition: all 0.4s ease-in-out;
+}
+
+.postDesc {
+    margin: 1% 0;
 }
