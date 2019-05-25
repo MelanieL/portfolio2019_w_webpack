@@ -1,4 +1,4 @@
-.aboutMeCtnr, .skillsGridsCtnr {
+.aboutMeCtnr {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -6,39 +6,36 @@
 }
 
 .about h3 {
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
-.skillsGridsCtnr {
-    margin-top: 50px;
+.aboutMeImg {
+    margin-left: 20px;
 }
 
 .skillsCtnr {
-    width: 60%;
-}
-
-.learnCtnr {
-width: 25%;
-}
-
-.mySkills, .toLearn {
-    display: grid;
-    // grid-template-rows: auto auto ;
-    grid-gap: 20px;
-}
-
-.mySkills {
-    grid-template-columns: auto auto auto;
-}
-
-.toLearn {
-    grid-template-columns: 170px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .skill {
-    background-color: $color011;
-    color: $color1;
-    padding: 8px 15px;
-    font-weight: 500;
-    font-size: 1.2rem;
+    color: $color011;
+    font-size: 3rem;
+    margin: 25px 20px;
+}
+
+.skillIcon, .skillLabel {
+    display: flex;
+    justify-content: center;
+}
+
+.skillIcon {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+.bem {
+    padding: 5px;
 }

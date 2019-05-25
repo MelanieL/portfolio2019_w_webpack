@@ -15,7 +15,7 @@
 }
 
 .projectTagsCntr {
-    margin-top: 20px;
+    margin: 10px 0;
     flex-wrap: wrap;
 }
 
@@ -29,7 +29,15 @@
     padding: 8px 15px;
     font-weight: 500;
     font-size: 1.1rem;
-    margin: 10px 5px;
+    margin: 3px;
+}
+
+// .projectTag:first-of-type {
+//     margin-left: 0;
+// }
+
+.projectDescCntr p {
+    margin-left: 5px;
 }
 
 .btnCntr > :last-child {
