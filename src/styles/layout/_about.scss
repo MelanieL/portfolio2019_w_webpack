@@ -14,20 +14,22 @@
 }
 
 .skillsCtnr {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 55px);
     width: 100%;
-    flex-wrap: wrap;
+    grid-gap: 20px;
+    justify-content: space-between;
 }
 
 .skill {
     color: $color011;
     font-size: 3rem;
-    margin: 25px 20px;
 }
 
 .skillIcon, .skillLabel {
     display: flex;
     justify-content: center;
+
 }
 
 .skillIcon {
