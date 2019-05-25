@@ -17,6 +17,14 @@
     font-size: 1.2rem;
 }
 
+.workTogether .sectionTitle {
+    display: flex;
+}
+
+.workTogether .sectionTitle::after {
+    display: none;
+}
+
 @media (max-width: 650px) {
   
     .workTogether h3 {
