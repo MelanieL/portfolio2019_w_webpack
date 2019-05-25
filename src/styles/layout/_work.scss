@@ -5,6 +5,10 @@
     margin: 50px 0 120px 0;
 }
 
+.projectCntr:last-of-type {
+    margin: 50px 0 60px 0;
+}
+
 .projectDescCntr {
     display: flex;
     flex-direction: column;
@@ -32,14 +36,26 @@
     margin: 3px;
 }
 
-// .projectTag:first-of-type {
-//     margin-left: 0;
-// }
-
 .projectDescCntr p {
     margin-left: 5px;
 }
 
 .btnCntr > :last-child {
     margin-left: 20px;
+}
+
+@media (max-width: 970px) {
+  
+    .projectCntr {
+        flex-direction: column;
+    }
+    
+    .projectImg, .projectDescCntr {
+        width: unset;
+    }
+
+    .projectDescCntr h4 {
+        margin-top: 20px;
+    }
+
 }

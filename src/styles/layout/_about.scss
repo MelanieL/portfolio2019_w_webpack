@@ -39,3 +39,22 @@
 .bem {
     padding: 5px;
 }
+
+@media (max-width: 940px) {
+  
+  .aboutMeCtnr {
+    flex-direction: column;
+  }
+
+  .aboutMeTxt {
+      order: 2;
+  }
+
+  .aboutMeImg {
+      order: 1;
+      width: 50%;
+      margin-bottom: 20px;
+      margin-left: unset;
+  }
+
+}

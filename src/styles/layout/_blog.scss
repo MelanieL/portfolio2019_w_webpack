@@ -8,12 +8,8 @@
 
 .article:last-of-type {
     border-bottom: unset;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
-
-// .article h4 {
-//     margin-bottom: 8px;
-// }
 
 .article a h4:hover, .article a h4:focus {
     color: $color4;
@@ -23,3 +19,12 @@
 .postDesc {
     margin: 1% 0;
 }
+
+@media (max-width: 720px) {
+  
+  .article {
+      padding: 5% 0;
+  }
+  
+}
+

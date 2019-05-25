@@ -45,3 +45,28 @@ nav ul a {
 header a:hover, header a:focus {
     color: $color7;
 }
+
+.mobileLogo {
+  display: none;
+}
+
+@media (max-width: 970px) {
+  
+  .mobileLogo{
+    display: unset;
+  }
+
+  .desktopLogo {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 740px) {
+  
+  .social-top {
+    display: none;
+  }
+  
+}
+
