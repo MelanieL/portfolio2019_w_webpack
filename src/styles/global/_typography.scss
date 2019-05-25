@@ -65,3 +65,26 @@ p {
 .smCntr {
   font-size: 2.5rem;
 }
+
+.mediumLink {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 500px) {
+  
+    .sectionTitle {
+        font-size: 2.2rem;
+    }
+    
+}
+
+// Final media size, will work down to 320px
+@media (max-width: 420px) {
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+
+}
+
+

@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 55px);
     width: 100%;
-    grid-gap: 20px;
+    grid-gap: 30px;
     justify-content: space-between;
 }
 
@@ -60,3 +60,13 @@
   }
 
 }
+
+@media (max-width: 600px) {
+  
+    .aboutMeImg {
+        width: 100%;
+    }
+
+}
+
+

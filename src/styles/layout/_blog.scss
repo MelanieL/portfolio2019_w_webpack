@@ -20,6 +20,16 @@
     margin: 1% 0;
 }
 
+.mediumLink {
+    color: $color9;
+    cursor: pointer;
+    // border-bottom: 1px solid $color9;
+}
+
+.mediumLink:hover, .mediumLink:focus {
+    color: $color7;
+}
+
 @media (max-width: 720px) {
   
   .article {

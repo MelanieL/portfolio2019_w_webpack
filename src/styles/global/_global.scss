@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin: 0 0 20px;
+  margin: 20px 20px 20px 0;
 }
 
 a {
@@ -51,6 +51,12 @@ section, blockquote, footer {
   margin: 0 0 30px 0;
 }
 
+.sectionTitle::after {
+  content: "";
+  border-bottom: 1px solid $color5;
+  width: 400px;
+}
+
 .subtleBorder {
     border: 1px solid $color7;
 }
@@ -65,6 +71,7 @@ section, blockquote, footer {
   border: 1px solid transparent;
   max-width: 170px;
   text-align: center;
+  margin: 10px 10px 10px 0;
 }
 
 .lightbtn {

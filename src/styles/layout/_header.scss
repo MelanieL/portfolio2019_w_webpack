@@ -78,3 +78,45 @@ header a:hover, header a:focus {
   
 }
 
+@media (max-width: 500px) {
+  
+  .homeLink {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  
+  .homeLink {
+    display: none;
+  }
+  
+}
+
+// Final media size, will work down to 320px
+@media (max-width: 420px) {
+  
+  header .wrapper {
+    padding: 0;
+  }
+
+  .logo {
+    padding: 5px;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  nav ul a {
+    padding: 12px 5px;
+  }
+  
+}
+
+
+
+

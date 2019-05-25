@@ -14,6 +14,10 @@
     flex-direction: column;
 }
 
+.projectDescCntr h4 {
+    margin-left: 5px;
+}
+
 .projectImg, .projectDescCntr {
     width: 46%;
 }
@@ -30,18 +34,14 @@
 .projectTag {
     background-color: $color011;
     color: $color1;
-    padding: 8px 15px;
+    padding: 8px 10px;
     font-weight: 500;
-    font-size: 1.1rem;
-    margin: 3px;
+    margin: 5px;
+    font-size: 0.9rem;
 }
 
 .projectDescCntr p {
     margin-left: 5px;
-}
-
-.btnCntr > :last-child {
-    margin-left: 20px;
 }
 
 @media (max-width: 970px) {
@@ -59,3 +59,12 @@
     }
 
 }
+
+@media (max-width: 500px) {
+
+    .btnCntr {
+        flex-direction: column;
+    }
+
+}
+
